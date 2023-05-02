@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "seed": "esrun utils/seed.ts",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@digitak/esrun": "^3.2.24",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/luxon": "^3.3.0",
+    "@types/node": "^18",
+    "jsonwebtoken": "^9.0.0",
+    "nuxt": "^3.4.3",
+    "prisma": "^4.13.0"
+  },
+  "dependencies": {
+    "@prisma/client": "4.13.0",
+    "argon2": "^0.30.3",
+    "luxon": "^3.3.0"
+  }
+}
